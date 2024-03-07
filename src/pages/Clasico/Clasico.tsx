@@ -12,7 +12,7 @@ export const Clasico = () => {
    const length = laliga.length -1
    const [len, setLen] = useState<number>(length)
    const date:number = 2023
-   const [newdate, setNewdate] = useState<New[]>([])
+   const [newdate] = useState<New[]>([])
 
    if(len > -1) {
       newdate.unshift(date - len)
