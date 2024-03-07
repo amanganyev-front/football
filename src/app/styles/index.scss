@@ -1,0 +1,17 @@
+$blue: #00ffa3;
+$black: #1e1e1e;
+
+@mixin sm {
+   @media screen and (max-width: 667px) {
+      @content;
+   }
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   font-family: "Montserrat";
+   margin: 0;
+   padding: 0;
+}

@@ -1,0 +1,25 @@
+@import "../app/styles/index.scss";
+
+.Header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100px;
+   background-color: $blue;
+   div {
+      width: 700px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .NavLink {
+         font-weight: 500;
+         font-size: 20px;
+         text-decoration: none;
+         color: black;
+         &:global(.active) {
+            color: red;
+         }
+      }
+   }
+}

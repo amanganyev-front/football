@@ -1,0 +1,24 @@
+@import "../../app/styles/index.scss";
+
+.English {
+   width: 100%;
+   height: 1300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: $black;
+   h1 {
+      font-size: 40px;
+      color: white;
+      font-weight: 500;
+   }
+}
+
+.Cards {
+   width: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   height: auto;
+}
