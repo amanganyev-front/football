@@ -1,0 +1,28 @@
+.Home {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 60px;
+    background-color: #1F1F1F;
+    .match {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+        .image {
+            width: 100px;
+            height: 100px;
+        }
+        img {
+            width: auto;
+        }
+        .middle {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+}
