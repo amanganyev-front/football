@@ -23,4 +23,10 @@ export interface IMatch {
     first: TeamName
     second: TeamName
     tournament: TournamentName
+    finished?: boolean
+}
+
+export interface MatchesByDate {
+    date: string
+    matches: IMatch[]
 }
