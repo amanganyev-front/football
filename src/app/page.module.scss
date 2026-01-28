@@ -18,11 +18,15 @@
         }
         img {
             width: auto;
+            max-width: 100px;
         }
         .middle {
             display: flex;
+            text-align: center;
+            align-items: center;
             flex-direction: column;
             gap: 5px;
+            width: 60px;
         }
     }
 }
